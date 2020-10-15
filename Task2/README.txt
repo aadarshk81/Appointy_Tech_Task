@@ -1,5 +1,5 @@
-1. In terminal run "go run server.go"
-2. In another terminal run "go run client.go" to run the get/post method, searching, etc.
+1. In terminal run "go run Server.go"
+2. In another terminal run "go run Client.go" to run the get/post method, searching, etc.
 3. URL are as follows:
 
 
@@ -14,7 +14,7 @@ Returns all the articles
 http://localhost:8000/articles
 POST
 Create a new article
-(POST request is sent in client.go "add_article_post" function)
+(POST request is sent in Client.go "add_article_post" function)
 
 
 http://localhost:8000/articles/<id>
